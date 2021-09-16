@@ -1,0 +1,14 @@
+.table {    
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+.thead {
+    background-color: aqua;
+}
+.td {
+    padding: 20px;
+}
+table td {
+    padding: 20px;
+}
