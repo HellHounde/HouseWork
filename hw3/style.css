@@ -1,0 +1,73 @@
+body {
+    background-image: url(/img/wrinkled-crumpled-paper-1196278.jpg);
+    overflow: auto;
+    
+}
+
+.back {
+    background-image: url(/img/cesar2.png);
+    background-repeat: no-repeat;
+    background-size: 0px;
+    width: max-content;  
+}
+
+.back:hover {
+    background-size: auto;
+}
+
+.cite {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(206, 29, 6);
+   
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+a[href^='https'] {
+    color: red;
+}
+
+.list ul > li > a[title='youtube'] {
+    color: #ff8d00;
+}  
+
+.holder ul + p{
+    font-size: 26px;
+}
+
+a[title] {
+    border: 1px solid #067b09;
+}
+
+.text-box h3 {
+    color: pink;
+}
+
+.text-box > div > p {
+    color:red;
+}
+
+#greycol {
+    color:grey;
+}
+
+.text-box h3[title='text'] {
+    color: blue;
+}  
+
+.yellow {
+    color: yellow;
+}
+
+.text-box h3[title='text']+p {
+    color:green;
+}
+
+#greycol + div + h3 {
+    color: unset;
+}
