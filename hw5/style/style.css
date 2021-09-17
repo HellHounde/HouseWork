@@ -1,0 +1,37 @@
+.text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: green;
+    text-indent: 40px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+}
+
+.bg-box {
+    width: 70%;
+    height:500px;
+    background:url('../img/pole-zelen-trava-dom-derevya.jpg') center center/ 400px 250px no-repeat ,
+    url('../img/grass-png-images-pictures-transparent-28.png') bottom / 150px 150px repeat-x ,
+    url('../img/lamp-png-0.png') top / 30px 50px repeat-x ,
+    url('../img/Ёжик.png') left / 30px 30px repeat-y ,
+    url('../img/пончик.png') right / 30px 30px repeat-y
+         ,  green;
+}
+
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background:linear-gradient(to bottom, #fcfcfc 0%,#fcfcfc 10%,#299a0b 10%,#299a0b 20%,#fcfcfc 20%,#fcfcfc 30%,#299a0b 30%,#299a0b 40%,#fcfcfc 40%,#fcfcfc 50%,#299a0b 50%,#299a0b 60%,#fcfcfc 60%,#fcfcfc 70%,#299a0b 70%,#299a0b 80%,#fcfcfc 80%,#fcfcfc 90%,#299a0b 90%,#299a0b 100%);
+}
+
+.box2 {
+    background: linear-gradient(135deg, #000000 1%,#000000 20%,#000000 20%,#a8a8a8 21%,#b7b7b7 80%,#0a0809 80%);
+}
+
+.box3 {
+    background: radial-gradient(ellipse at center, #b51313 21%,#000000 21%,#000000 21%,#000000 100%,#b7b7b7 100%,#000000 103%);
+}
